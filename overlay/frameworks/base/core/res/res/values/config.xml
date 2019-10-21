@@ -304,6 +304,13 @@
 
     <!-- The name of the package that will hold the dialer role by default. -->
     <!-- <string name="config_defaultDialer" translatable="false">org.codeaurora.dialer</string> -->
+    
+     <!-- List of regexpressions describing the interface (if any) that represent tetherable
+          Wifi P2P interfaces.  If the device doesn't want to support tethering over Wifi P2p this
+         should be empty.  An example would be "p2p-p2p.*" -->
+     <string-array translatable="false" name="config_tether_wifi_p2p_regexs">
+        <item>"p2p-p2p\\d-.*"</item>
+     </string-array>
 
    <!-- Operating volatage for bluetooth controller. 0 by default-->
    <integer translatable="false" name="config_bluetooth_operating_voltage_mv">3300</integer>
