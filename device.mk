@@ -159,6 +159,7 @@ PRODUCT_BOOT_JARS += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    libbthost_if \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
 # Camera
